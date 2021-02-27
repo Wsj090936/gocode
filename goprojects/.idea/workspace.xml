@@ -21,7 +21,13 @@
     <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../projects/LearnCenter-Go" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/ch2/test/fib_test.go" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\goprojects\src\ch1\main" />
+      <recent name="D:\goprojects\src" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -35,18 +41,81 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="go build hello.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Test.Test_op in operator_test.go">
+    <configuration name="TestConst in const_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="goprojects" />
-      <working_directory value="$PROJECT_DIR$/" />
+      <working_directory value="$PROJECT_DIR$/src/ch2/test" />
+      <framework value="gotest" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/hello.go" />
       <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/src/ch2/test/const_test.go" />
+      <pattern value="^TestConst$" />
       <method v="2" />
     </configuration>
+    <configuration name="TestFib in fib_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="goprojects" />
+      <working_directory value="$PROJECT_DIR$/src/ch2/test" />
+      <framework value="gotest" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/src/ch2/test/fib_test.go" />
+      <pattern value="^TestFib$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test_op in operator_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="goprojects" />
+      <working_directory value="$PROJECT_DIR$/src/ch3/operator" />
+      <framework value="gotest" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/src/ch3/operator/operator_test.go" />
+      <pattern value="^Test_op$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test_type in type_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="goprojects" />
+      <working_directory value="$PROJECT_DIR$/src/ch3/types" />
+      <framework value="gotest" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/src/ch3/types/type_test.go" />
+      <pattern value="^Test_type$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="const_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="goprojects" />
+      <working_directory value="$PROJECT_DIR$/src/ch2/test" />
+      <framework value="gotest" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/src/ch2/test/const_test.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="do_test.go" type="GoTestRunConfiguration" factoryName="Go Test">
+      <module name="goprojects" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <framework value="gotest" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/src/ch2/test/do_test.go|$PROJECT_DIR$/src/ch2/test/fib_test.go" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Go Test.do_test.go" />
+      <item itemvalue="Go Test.TestFib in fib_test.go" />
+      <item itemvalue="Go Test.TestConst in const_test.go" />
+      <item itemvalue="Go Test.const_test.go" />
+      <item itemvalue="Go Test.Test_type in type_test.go" />
+      <item itemvalue="Go Test.Test_op in operator_test.go" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build hello.go" />
+        <item itemvalue="Go Test.Test_op in operator_test.go" />
+        <item itemvalue="Go Test.Test_type in type_test.go" />
+        <item itemvalue="Go Test.const_test.go" />
+        <item itemvalue="Go Test.TestConst in const_test.go" />
+        <item itemvalue="Go Test.TestFib in fib_test.go" />
       </list>
     </recent_temporary>
   </component>

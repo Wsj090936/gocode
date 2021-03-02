@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e618511-177c-4413-9a00-bf3ed436b226" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ch4/collections/Array_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch4/collections/Slice_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch4/fortest/Codition_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch4/fortest/For_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch4/fortest/Switch_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch4/collections/Map_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch4/functions/Function_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -54,55 +51,55 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Test.TestArraySection in Array_test.go">
-    <configuration name="TestArraySection in Array_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Test.TestPerson in Function_test.go">
+    <configuration name="TestFuncTransport in Function_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="goprojects" />
-      <working_directory value="$PROJECT_DIR$/src/ch4/collections" />
+      <working_directory value="$PROJECT_DIR$/src/ch4/functions" />
       <framework value="gotest" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/src/ch4/collections/Array_test.go" />
-      <pattern value="^TestArraySection$" />
+      <filePath value="$PROJECT_DIR$/src/ch4/functions/Function_test.go" />
+      <pattern value="^TestFuncTransport$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestArrayTravel in Array_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestFunction in Function_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="goprojects" />
-      <working_directory value="$PROJECT_DIR$/src/ch4/collections" />
+      <working_directory value="$PROJECT_DIR$/src/ch4/functions" />
       <framework value="gotest" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/src/ch4/collections/Array_test.go" />
-      <pattern value="^TestArrayTravel$" />
+      <filePath value="$PROJECT_DIR$/src/ch4/functions/Function_test.go" />
+      <pattern value="^TestFunction$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestSlice in Slice_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestPerson in Function_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="goprojects" />
-      <working_directory value="$PROJECT_DIR$/src/ch4/collections" />
+      <working_directory value="$PROJECT_DIR$/src/ch4/functions" />
       <framework value="gotest" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/src/ch4/collections/Slice_test.go" />
-      <pattern value="^TestSlice$" />
+      <filePath value="$PROJECT_DIR$/src/ch4/functions/Function_test.go" />
+      <pattern value="^TestPerson$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestSliceGrowing in Slice_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestRefrence in Function_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="goprojects" />
-      <working_directory value="$PROJECT_DIR$/src/ch4/collections" />
+      <working_directory value="$PROJECT_DIR$/src/ch4/functions" />
       <framework value="gotest" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/src/ch4/collections/Slice_test.go" />
-      <pattern value="^TestSliceGrowing$" />
+      <filePath value="$PROJECT_DIR$/src/ch4/functions/Function_test.go" />
+      <pattern value="^TestRefrence$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestSliceShare in Slice_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestReturnFunc in Function_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="goprojects" />
-      <working_directory value="$PROJECT_DIR$/src/ch4/collections" />
+      <working_directory value="$PROJECT_DIR$/src/ch4/functions" />
       <framework value="gotest" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/src/ch4/collections/Slice_test.go" />
-      <pattern value="^TestSliceShare$" />
+      <filePath value="$PROJECT_DIR$/src/ch4/functions/Function_test.go" />
+      <pattern value="^TestReturnFunc$" />
       <method v="2" />
     </configuration>
     <configuration name="do_test.go" type="GoTestRunConfiguration" factoryName="Go Test">
@@ -117,19 +114,19 @@
     </configuration>
     <list>
       <item itemvalue="Go Test.do_test.go" />
-      <item itemvalue="Go Test.TestArrayTravel in Array_test.go" />
-      <item itemvalue="Go Test.TestArraySection in Array_test.go" />
-      <item itemvalue="Go Test.TestSlice in Slice_test.go" />
-      <item itemvalue="Go Test.TestSliceGrowing in Slice_test.go" />
-      <item itemvalue="Go Test.TestSliceShare in Slice_test.go" />
+      <item itemvalue="Go Test.TestFunction in Function_test.go" />
+      <item itemvalue="Go Test.TestRefrence in Function_test.go" />
+      <item itemvalue="Go Test.TestFuncTransport in Function_test.go" />
+      <item itemvalue="Go Test.TestReturnFunc in Function_test.go" />
+      <item itemvalue="Go Test.TestPerson in Function_test.go" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Test.TestArraySection in Array_test.go" />
-        <item itemvalue="Go Test.TestSliceShare in Slice_test.go" />
-        <item itemvalue="Go Test.TestSliceGrowing in Slice_test.go" />
-        <item itemvalue="Go Test.TestSlice in Slice_test.go" />
-        <item itemvalue="Go Test.TestArrayTravel in Array_test.go" />
+        <item itemvalue="Go Test.TestPerson in Function_test.go" />
+        <item itemvalue="Go Test.TestReturnFunc in Function_test.go" />
+        <item itemvalue="Go Test.TestFuncTransport in Function_test.go" />
+        <item itemvalue="Go Test.TestRefrence in Function_test.go" />
+        <item itemvalue="Go Test.TestFunction in Function_test.go" />
       </list>
     </recent_temporary>
   </component>

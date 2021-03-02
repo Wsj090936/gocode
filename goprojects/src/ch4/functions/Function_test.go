@@ -155,7 +155,13 @@ func TestArrRefrence(t *testing.T){
 	fmt.Println(arr)
 	transferArrF(&arr)
 	fmt.Println(arr)// 4,2,3
-
+	slice := make([]int,0,0)
+	slice = append(slice,1,2,3)
+	transferSlice(slice)
+	fmt.Println(slice)
+}
+func transferSlice(slice []int) {
+	slice[0] = -1
 }
 
 func transferArr(arr [3]int){

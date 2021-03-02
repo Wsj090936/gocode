@@ -50,15 +50,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Test.TestRefrence in Function_test.go">
-    <configuration name="TestFuncTransport in Function_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Test.TestArrRefrence in Function_test.go">
+    <configuration name="TestArrRefrence in Array_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="goprojects" />
+      <working_directory value="$PROJECT_DIR$/src/ch4/collections" />
+      <framework value="gotest" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/src/ch4/collections/Array_test.go" />
+      <pattern value="^TestArrRefrence$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestArrRefrence in Function_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="goprojects" />
       <working_directory value="$PROJECT_DIR$/src/ch4/functions" />
       <framework value="gotest" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/src/ch4/functions/Function_test.go" />
-      <pattern value="^TestFuncTransport$" />
+      <pattern value="^TestArrRefrence$" />
       <method v="2" />
     </configuration>
     <configuration name="TestPerson in Function_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -91,16 +101,6 @@
       <pattern value="^TestRefrence$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestReturnFunc in Function_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="goprojects" />
-      <working_directory value="$PROJECT_DIR$/src/ch4/functions" />
-      <framework value="gotest" />
-      <kind value="FILE" />
-      <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/src/ch4/functions/Function_test.go" />
-      <pattern value="^TestReturnFunc$" />
-      <method v="2" />
-    </configuration>
     <configuration name="do_test.go" type="GoTestRunConfiguration" factoryName="Go Test">
       <module name="goprojects" />
       <working_directory value="$PROJECT_DIR$" />
@@ -114,18 +114,18 @@
     <list>
       <item itemvalue="Go Test.do_test.go" />
       <item itemvalue="Go Test.TestRefrence in Function_test.go" />
-      <item itemvalue="Go Test.TestFuncTransport in Function_test.go" />
-      <item itemvalue="Go Test.TestReturnFunc in Function_test.go" />
       <item itemvalue="Go Test.TestPerson in Function_test.go" />
       <item itemvalue="Go Test.TestPerson1 in Function_test.go" />
+      <item itemvalue="Go Test.TestArrRefrence in Array_test.go" />
+      <item itemvalue="Go Test.TestArrRefrence in Function_test.go" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestArrRefrence in Function_test.go" />
+        <item itemvalue="Go Test.TestArrRefrence in Array_test.go" />
         <item itemvalue="Go Test.TestRefrence in Function_test.go" />
         <item itemvalue="Go Test.TestPerson1 in Function_test.go" />
         <item itemvalue="Go Test.TestPerson in Function_test.go" />
-        <item itemvalue="Go Test.TestReturnFunc in Function_test.go" />
-        <item itemvalue="Go Test.TestFuncTransport in Function_test.go" />
       </list>
     </recent_temporary>
   </component>

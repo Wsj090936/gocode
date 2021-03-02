@@ -88,13 +88,25 @@ func returnFuncType() SumFunc{
  */
 
 func TestPerson(t *testing.T) {
+	// 初始化结构体-引用
 	person := &Person{
 		age:  20,
 		tall: 180,
 	}
+	// 初始化结构体-值
+	//person := Person{
+	//	age:  20,
+	//	tall: 180,
+	//}
+	// 这里传入的是引用
+	doPerson(person)
 	person.getAge() // 这个人的年龄为： 20
-	person.setAge(30)
+	person.setAge(30)// 这里传入的是引用 函数内改变变量对外是有影响的
 	person.getAge() // 这个人的年龄为： 30
+}
+func doPerson(p *Person) {
+	p.age = 1
+	fmt.Println(p.age)
 }
 
 type Person struct {
@@ -109,3 +121,27 @@ func (p Person)getAge() {
 func (p *Person)setAge(age int)  {
 	p.age = age
 }
+func TestPerson1(t *testing.T) {
+	p := &Person{
+		age:  10,
+		tall: 20,
+	}
+	p.getAge()
+	p.setAgeVal(11)
+	p.getAge()
+	num := 10
+	incr(num)
+	fmt.Println("num:",num)
+	incrAge(*p)
+	p.getAge()
+}
+func (p Person)setAgeVal(age int)  {
+	p.age = age
+}
+func incr(num int) {
+	num++
+}
+func incrAge(p Person) {
+	p.age = 12
+}
+

@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3e618511-177c-4413-9a00-bf3ed436b226" name="Default Changelist" comment="" />
+    <list default="true" id="3e618511-177c-4413-9a00-bf3ed436b226" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch4/functions/Function_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch4/functions/Function_test.go" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +50,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Test.TestPerson in Function_test.go">
+  <component name="RunManager" selected="Go Test.TestRefrence in Function_test.go">
     <configuration name="TestFuncTransport in Function_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="goprojects" />
       <working_directory value="$PROJECT_DIR$/src/ch4/functions" />
@@ -58,16 +61,6 @@
       <pattern value="^TestFuncTransport$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestFunction in Function_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="goprojects" />
-      <working_directory value="$PROJECT_DIR$/src/ch4/functions" />
-      <framework value="gotest" />
-      <kind value="FILE" />
-      <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/src/ch4/functions/Function_test.go" />
-      <pattern value="^TestFunction$" />
-      <method v="2" />
-    </configuration>
     <configuration name="TestPerson in Function_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="goprojects" />
       <working_directory value="$PROJECT_DIR$/src/ch4/functions" />
@@ -76,6 +69,16 @@
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/src/ch4/functions/Function_test.go" />
       <pattern value="^TestPerson$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestPerson1 in Function_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="goprojects" />
+      <working_directory value="$PROJECT_DIR$/src/ch4/functions" />
+      <framework value="gotest" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/src/ch4/functions/Function_test.go" />
+      <pattern value="^TestPerson1$" />
       <method v="2" />
     </configuration>
     <configuration name="TestRefrence in Function_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -110,19 +113,19 @@
     </configuration>
     <list>
       <item itemvalue="Go Test.do_test.go" />
-      <item itemvalue="Go Test.TestFunction in Function_test.go" />
       <item itemvalue="Go Test.TestRefrence in Function_test.go" />
       <item itemvalue="Go Test.TestFuncTransport in Function_test.go" />
       <item itemvalue="Go Test.TestReturnFunc in Function_test.go" />
       <item itemvalue="Go Test.TestPerson in Function_test.go" />
+      <item itemvalue="Go Test.TestPerson1 in Function_test.go" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestRefrence in Function_test.go" />
+        <item itemvalue="Go Test.TestPerson1 in Function_test.go" />
         <item itemvalue="Go Test.TestPerson in Function_test.go" />
         <item itemvalue="Go Test.TestReturnFunc in Function_test.go" />
         <item itemvalue="Go Test.TestFuncTransport in Function_test.go" />
-        <item itemvalue="Go Test.TestRefrence in Function_test.go" />
-        <item itemvalue="Go Test.TestFunction in Function_test.go" />
       </list>
     </recent_temporary>
   </component>

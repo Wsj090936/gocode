@@ -42,3 +42,5 @@ func TestArraySection(t *testing.T) {
 	a2[2] = 0
 	fmt.Println(arr2,a2) // [1 2 3 0 5] [2 3 0 5]
 }
+
+

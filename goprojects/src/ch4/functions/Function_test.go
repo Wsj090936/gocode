@@ -145,3 +145,22 @@ func incrAge(p Person) {
 	p.age = 12
 }
 
+
+
+// 数组值传递测试
+func TestArrRefrence(t *testing.T){
+	arr := [...]int{1,2,3}
+	transferArr(arr)
+	// 结果还是 1,2,3
+	fmt.Println(arr)
+	transferArrF(&arr)
+	fmt.Println(arr)// 4,2,3
+
+}
+
+func transferArr(arr [3]int){
+	arr[0] = 4
+}
+func transferArrF(arr *[3]int){
+	arr[0] = 4
+}

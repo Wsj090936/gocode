@@ -93,6 +93,8 @@ func TestPerson(t *testing.T) {
 		tall: 180,
 	}
 	person.getAge() // 这个人的年龄为： 20
+	person.setAge(30)
+	person.getAge() // 这个人的年龄为： 30
 }
 
 type Person struct {
@@ -102,4 +104,8 @@ type Person struct {
 // (p Person)表示当前这个方法是Person这个结构体里面的
 func (p Person)getAge() {
 	fmt.Println("这个人的年龄为：",p.age)
+}
+// 想要修改age 这里必须传指针,因为go语言默认的传递都是值传递，都是给函数一份拷贝
+func (p *Person)setAge(age int)  {
+	p.age = age
 }

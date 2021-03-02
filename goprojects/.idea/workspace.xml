@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e618511-177c-4413-9a00-bf3ed436b226" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/alg/TwoSum.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch4/functions/Function_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch4/functions/Function_test.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

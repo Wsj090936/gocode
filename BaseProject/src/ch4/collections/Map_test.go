@@ -28,3 +28,24 @@ func TestMap(t *testing.T) {
 	fmt.Println(o)
 
 }
+
+func TestMapExist(t *testing.T){
+	m := map[int]int{}
+	m[0] = 0
+	if v,ok := m[1];ok{
+		fmt.Println("Key  exist,value = ",v)
+	}else {
+		fmt.Println("Key not exist")
+	}
+
+}
+
+func TestMySet(t *testing.T) {
+	set := Set{m: map[int]bool{}}
+	fmt.Println("检查 key 为 1 存不存在:",set.contains(1))
+	set.add(1)
+	fmt.Println("检查 key 为 1 存不存在:",set.contains(1))
+	set.delete(1)
+	fmt.Println("检查 key 为 1 存不存在:",set.contains(1))
+
+}

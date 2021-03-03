@@ -1,7 +1,10 @@
 package main
-import "fmt"
+import (
+	"fmt"
+	"structs"
+	//"ch5/interfaces"e
+)
 
-import "structs"
 func main()  {
 	fmt.Println("ok")
 	p := structs.Person{}

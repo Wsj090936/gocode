@@ -47,5 +47,7 @@ func TestMySet(t *testing.T) {
 	fmt.Println("检查 key 为 1 存不存在:",set.contains(1))
 	set.delete(1)
 	fmt.Println("检查 key 为 1 存不存在:",set.contains(1))
+	set.setName("吴世佳")
+	fmt.Println(set.name)
 
 }

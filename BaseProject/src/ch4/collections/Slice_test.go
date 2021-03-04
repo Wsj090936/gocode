@@ -66,3 +66,15 @@ func TestSliceComparing(t *testing.T) {
 	//s2 := []int{1,2,3,4}
 	////fmt.Println(s1 == s2) 这里不能运行
 }
+
+func TestSliceRefrence(t *testing.T) {
+	var slice = []int{}
+	slice[0] = 1
+	fmt.Println(slice)
+	setSliceValue(slice,0,2)
+	fmt.Println(slice)
+}
+// 切片是引用传递，因为里面有指针
+func setSliceValue(arr []int, idx int, value int)  {
+	arr[idx] = value
+}

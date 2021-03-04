@@ -3,6 +3,7 @@ package functions
 import (
 	"fmt"
 	"testing"
+	"time"
 )
 
 func TestFunction(t *testing.T) {
@@ -169,4 +170,38 @@ func transferArr(arr [3]int){
 }
 func transferArrF(arr *[3]int){
 	arr[0] = 4
+}
+
+/**
+	函数作为参数和返回值
+ */
+
+func TimeSpFunc(incr func(int) int) func(int) int {
+	return func(n int) int {
+		start := time.Now()
+		res := incr(n)
+		fmt.Println("当前函数运行时间:",time.Since(start).Seconds())
+		return res
+	}
+}
+
+func SlowFunc(num int) int {
+	time.Sleep(time.Second * 2)
+	fmt.Println("当前数字为:",num)
+	return num
+}
+
+func TestTimeFunc(t *testing.T) {
+	tsF := TimeSpFunc(SlowFunc)
+	tsF(2)
+}
+
+func TestDefer(t *testing.T) {
+	DeferFunc()
+}
+
+func DeferFunc() {
+	defer SlowFunc(3)// 相当于finally
+	fmt.Println("先执行")
+	panic("error") //报错
 }

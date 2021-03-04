@@ -16,8 +16,8 @@ func TestFib(t *testing.T) {
 
 	a,b := 1,1
 
-	a := 1
-	b := 1
+	a = 1
+	b = 1
 	for i := 0; i < 5; i++ {
 		fmt.Println(a)
 		temp := a

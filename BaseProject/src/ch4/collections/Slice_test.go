@@ -2,6 +2,7 @@ package collections
 
 import (
 	"fmt"
+	"structs"
 	"testing"
 )
 
@@ -77,4 +78,14 @@ func TestSliceRefrence(t *testing.T) {
 // 切片是引用传递，因为里面有指针
 func setSliceValue(arr []int, idx int, value int)  {
 	arr[idx] = value
+}
+
+func TestPersonSlice(t *testing.T) {
+	var persons = []structs.Person{}
+	p := structs.Person{
+		Age:  0,
+		Tall: 0,
+	}
+	persons = append(persons,p)
+	fmt.Println(persons)
 }

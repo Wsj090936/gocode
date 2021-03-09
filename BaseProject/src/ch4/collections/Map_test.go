@@ -1,6 +1,7 @@
 package collections
 
 import (
+	"encoding/json"
 	"fmt"
 	"testing"
 )
@@ -50,4 +51,21 @@ func TestMySet(t *testing.T) {
 	set.setName("吴世佳")
 	fmt.Println(set.name)
 
+}
+
+func TestMapRefrence(t *testing.T)  {
+	m := map[int]int{}
+	fmt.Println(m)
+	setMap(m,1,1)
+	fmt.Println(m)
+	bytes, e := json.Marshal(m)
+	if e != nil{
+		return
+	}
+
+	fmt.Println(string(bytes))
+}
+// map实际上也是值传递，但是里面有个值是指针。。所以有点像引用
+func setMap(m map[int]int,key int,value int)  {
+	m[key] = value
 }

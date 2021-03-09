@@ -205,3 +205,47 @@ func DeferFunc() {
 	fmt.Println("先执行")
 	panic("error") //报错
 }
+
+func TestMultFunc(t *testing.T) {
+	fmt.Println(Mulit())
+}
+func Mulit() (num int, tall int, err error) {
+	num = 1
+	tall = 2
+	err = nil
+	return
+}
+
+
+
+// 该匿名函数每次被调用时都会返回下一个数的平方。
+func squares() func() int {
+	var x int
+	return func() int {
+		x++
+		return x * x
+	}
+}
+func TestSquares(t *testing.T) {
+	f := squares()
+	fmt.Println(f()) // "1"
+	fmt.Println(f()) // "4"
+	fmt.Println(f()) // "9"
+	f = squares()
+	fmt.Println(f()) // "1"
+}
+
+func TestNiming(t *testing.T) {
+	var x  = 2
+	fun := func() int {
+		x++
+		return x * x
+	}
+	i := fun()
+	fmt.Println(i)
+	fmt.Println(x)
+	i = fun()
+	fmt.Println(i)
+	fmt.Println(x)
+
+}

@@ -1,7 +1,7 @@
 package structs
 
 type Person struct {
-	Age int
+	Age int `json:"age"`
 	Tall int
 }
 // 注意 方法想要被外部调用，必须大写

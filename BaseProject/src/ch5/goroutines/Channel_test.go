@@ -21,3 +21,24 @@ func sum(arr []int, c chan int) {
 	}
 	c <- sum //向channel 发送消息
 }
+
+func TestChannelBuffer(t *testing.T) {
+	ch := make(chan int,3)
+	ch <- 1
+	ch <- 2
+	ch <- 3
+	go func() {
+		for {
+			fmt.Println(11)
+			fmt.Println(<- ch)
+		}
+	}()
+	go func() {
+		for   {
+			ch <- 1
+		}
+	}()
+	fmt.Println(<- ch)
+
+}
+

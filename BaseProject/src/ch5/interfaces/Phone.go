@@ -4,4 +4,5 @@ package interfaces
 type Phone interface {
 	call() //
 	getNum() int // 获取当前手机的手机号
+	setNum(int)
 }

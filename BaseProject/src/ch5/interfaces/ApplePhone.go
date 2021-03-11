@@ -13,3 +13,7 @@ func (applePhone ApplePhone) call() {
 func (applePhone ApplePhone) getNum() int {
 	return applePhone.number
 }
+
+func (applePhone *ApplePhone) setNum(val int) {
+	applePhone.number = val
+}

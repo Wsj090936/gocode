@@ -1,7 +1,7 @@
 package interfaces
 
 type MyApplePhone struct {
-	ApplePhone // 表示MyApplePhone继承了ApplePhone
+	*ApplePhone // 表示MyApplePhone继承了ApplePhone
 	name string
 }
 

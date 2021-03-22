@@ -5,6 +5,7 @@ import (
 	//"ch5/interfaces"e
 )
 
+
 func main()  {
 	fmt.Println("ok")
 	p := structs.Person{}

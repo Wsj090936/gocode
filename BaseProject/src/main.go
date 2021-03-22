@@ -6,6 +6,7 @@ import (
 )
 
 
+
 func main()  {
 	fmt.Println("ok")
 	p := structs.Person{}
